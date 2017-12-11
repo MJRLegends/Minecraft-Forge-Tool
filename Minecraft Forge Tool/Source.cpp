@@ -9,12 +9,12 @@ void main()
 	string command = "";
 	do{
 		//system("cls");
-		cout << "Minecraft Forge Tool v1.5.0" << '\n';
+		cout << "Minecraft Forge Tool v1.5.1" << '\n';
 		cout << "Made By MJRLegends:" << '\n';
 		cout << "" << '\n';
 		cout << "1 - Setup Workspace(setupDevWorkspace)" << '\n';
 		cout << "2 - Setup Workspace(setupDevcompWorkspace)" << '\n';
-		cout << "2 - Setup Workspace(setupCiWorkspace)" << '\n';
+		cout << "3 - Setup Workspace(setupCiWorkspace)" << '\n';
 		cout << "4 - Setup Eclipse Files" << '\n';
 		cout << "5 - Setup IntelliJ IDEA Files" << '\n';
 		cout << "6 - Build Project (build)" << '\n';
