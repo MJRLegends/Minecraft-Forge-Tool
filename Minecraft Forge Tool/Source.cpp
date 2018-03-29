@@ -9,7 +9,7 @@ void main()
 	string command = "";
 	do{
 		//system("cls");
-		cout << "Minecraft Forge Tool v1.5.1" << '\n';
+		cout << "Minecraft Forge Tool v1.5.2" << '\n';
 		cout << "Made By MJRLegends:" << '\n';
 		cout << "" << '\n';
 		cout << "1 - Setup Workspace(setupDevWorkspace)" << '\n';
@@ -52,7 +52,8 @@ void main()
 				cout << "Go to \build\libs\ to get the jar file" << '\n';
 				break;
 			case 7:
-				cout << "Please enter the name of the task:" << '\n';
+				cout << "Please enter the name of the task:";
+				cin.ignore();
 				getline(cin, myChoiceString);
 				command = "gradlew.bat " + myChoiceString;
 				system(command.c_str());
